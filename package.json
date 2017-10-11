@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skinnyguypro/CTP_Pet_App.git"
+    "url": "git+https://github.com/KevinCybura/CTP_Pet_App.git"
   },
   "author": "Kevin, Christopher, Yvan, Hui",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skinnyguypro/CTP_Pet_App/issues"
+    "url": "https://github.com/KevinCybura/CTP_Pet_App/issues"
   },
-  "homepage": "https://github.com/skinnyguypro/CTP_Pet_App#readme",
+  "homepage": "https://github.com/KevinCybura/CTP_Pet_App#readme",
   "dependencies": {
     "babel-cli": "6.24.1",
     "babel-core": "6.25.0",

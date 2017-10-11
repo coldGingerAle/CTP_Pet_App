@@ -1,9 +1,0 @@
-
-WebPack:
-Setup WebPack
-npm run build- will see if app compiles
-npm run dev-server- will run the app on localhost:8080
-
-Babel:
-setup Babel
-Babel will compile react code into older versions of javascript
