@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "CTP project",
   "main": "index.js",
-  "scripts": {
-    "build": "webpack",
-    "dev-server": "webpack-dev-server"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinCybura/CTP_Pet_App.git"
@@ -18,17 +15,8 @@
   },
   "homepage": "https://github.com/KevinCybura/CTP_Pet_App#readme",
   "dependencies": {
-    "babel-cli": "6.24.1",
-    "babel-core": "6.25.0",
-    "babel-loader": "7.1.1",
-    "babel-plugin-transform-class-properties": "6.24.1",
-    "babel-preset-env": "1.5.2",
-    "babel-preset-react": "6.24.1",
-    "live-server": "^1.2.0",
-    "react": "16.0.0",
-    "react-dom": "16.0.0",
-    "validator": "8.0.0",
-    "webpack": "3.6.0",
-    "webpack-dev-server": "2.5.1"
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.12.1"
   }
 }
