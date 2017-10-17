@@ -10,7 +10,9 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
+app.use(expressSession(({ secret: 'keyboard cat', resave: false, saveUninitialized: true })));
+app.use(passport.initialize());
+app.use(passport.session());
 // Load Views
 const handlebars = require('express-handlebars');
 app.engine('handlebars', handlebars({
