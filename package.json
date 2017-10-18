@@ -4,7 +4,9 @@
   "description": "CTP project",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -L app.js"
+    "start": "nodemon -L app.js",
+    "client": "npm run start --prefix views/home/Animal_Rescue",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.2",
+    "concurrently": "^3.5.0",
     "express": "^4.16.2",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
