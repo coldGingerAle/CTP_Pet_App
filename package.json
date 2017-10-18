@@ -2,8 +2,10 @@
   "name": "ctp_pet_app",
   "version": "1.0.0",
   "description": "CTP project",
-  "main": "index.js",
-  "scripts": {},
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -L app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinCybura/CTP_Pet_App.git"
@@ -15,8 +17,22 @@
   },
   "homepage": "https://github.com/KevinCybura/CTP_Pet_App#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
     "hbs": "^4.0.1",
-    "nodemon": "^1.12.1"
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.13.17"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0",
+    "sequelize-cli": "^3.0.0"
   }
 }
